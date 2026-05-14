@@ -8,7 +8,7 @@
 ![OSINT](https://img.shields.io/badge/Type-OSINT-blueviolet?style=flat-square)
 
 > 🛡️ Part of the **DOMINI Suite** — a two-tool passive OSINT framework.  
-> DOMINUS analyzes domains. [SENTINEL](https://github.com/youruser/sentinel) analyzes IPs.  
+> DOMINUS analyzes domains. [SENTINEL](https://github.com/KristinaSabitova/sentinel) analyzes IPs.  
 > Together they map the full attack surface of any target.
 
 ---
@@ -94,7 +94,7 @@ python sentinel.py 54.38.163.115
 
 **Result:** The domain has email authentication issues (DMARC p=none, SPF soft-fail), but the underlying infrastructure is clean, hosted in Europe, with no abuse history. This is the kind of nuanced conclusion a professional analyst would reach — DOMINUS and SENTINEL together make it possible in seconds.
 
-> 🔗 See [SENTINEL](https://github.com/youruser/sentinel) for IP-level threat intelligence.
+> 🔗 See [SENTINEL](https://github.com/KristinaSabitova/sentinel) for IP-level threat intelligence.
 
 ---
 
@@ -136,7 +136,7 @@ A single `.html` file. Open it in any browser. Send it to a client. No server ne
 ## Installation
 
 ```bash
-git clone https://github.com/youruser/dominus.git
+git clone https://github.com/KristinaSabitova/dominus.git
 cd dominus
 python3 -m venv .venv
 source .venv/bin/activate
@@ -218,7 +218,7 @@ Always obtain proper authorization before scanning infrastructure you do not own
 Built for an academic cybersecurity practice at **Evolve Academy**.
 Designed to demonstrate domain-level OSINT as a professional alternative to identity-focused tools.
 
-Part of the **DOMINI Suite** alongside [SENTINEL](https://github.com/youruser/sentinel).
+Part of the **DOMINI Suite** alongside [SENTINEL](https://github.com/KristinaSabitova/sentinel).
 
 ---
 
