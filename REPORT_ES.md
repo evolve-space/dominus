@@ -168,7 +168,7 @@ DOMINUS(dominio)
 | ¿Dónde está físicamente esta IP y quién la posee? | SENTINEL (geolocalización) |
 | ¿Viene este ataque de infraestructura cloud? | SENTINEL (detección cloud) |
 
-**Conclusión combinada del ejemplo (evolve.es):**
+**Conclusión combinada del ejemplo (ejemplo.es):**
 
 DOMINUS revela: DMARC p=none (suplantación posible), SPF soft-fail, banner de servidor (wetopi) expuesto, sin cabecera CSP. Risk Score: 14/100 BAJO.
 
